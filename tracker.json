@@ -1,0 +1,23 @@
+{
+  "solved": 2,
+  "total": 150,
+  "last_updated": "2026-03-25T23:28:21Z",
+  "problems": [
+    {
+      "number": 1,
+      "title": "Two Sum",
+      "difficulty": "Easy",
+      "pattern": "Arrays & Hashing",
+      "link": "https://leetcode.com/problems/two-sum/",
+      "path": "arrays-and-hashing/TwoSum.java"
+    },
+    {
+      "number": 217,
+      "title": "Contains Duplicate",
+      "difficulty": "Easy",
+      "pattern": "Arrays & Hashing",
+      "link": "https://leetcode.com/problems/contains-duplicate/",
+      "path": "arrays-and-hashing/ContainsDuplicate.java"
+    }
+  ]
+}
