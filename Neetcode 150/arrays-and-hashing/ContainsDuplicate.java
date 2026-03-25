@@ -10,29 +10,34 @@
  * Example: [1,2,3,1] → true, [1,2,3,4] → false
  *
  * INTUITION:
- * We need instant "have I seen this before?" checks. A HashSet does exactly
- * that in O(1). The moment add() returns false, we hit a duplicate.
+ * Duplicates mean we have seen a value before. A HashSet gives O(1) lookup
+ * and insert: if the current number is already in the set, we found a
+ * duplicate; otherwise we record it and continue.
  *
  * APPROACH:
- * 1. Create empty HashSet<Integer>
- * 2. For each num: if set contains it → return true
- * 3. Otherwise add it and continue
- * 4. Return false if loop completes
+ * 1. Create HashSet<Integer> for seen values
+ * 2. Scan nums with an index loop
+ * 3. If the set already contains nums[i], return true
+ * 4. Otherwise add nums[i] to the set
+ * 5. Return false if the loop finishes with no hit
  *
  * COMPLEXITY:
- * Time:  O(n) — one pass with O(1) set operations
- * Space: O(n) — storing up to n elements
+ * Time:  O(n) — one pass, O(1) expected set operations
+ * Space: O(n) — up to n distinct values in the set
  */
 import java.util.HashSet;
-import java.util.Set;
 
 class ContainsDuplicate {
     public boolean containsDuplicate(int[] nums) {
-        Set<Integer> seen = new HashSet<>();
-        for (int num : nums) {
-            if (seen.contains(num)) return true;
-            seen.add(num);
+        HashSet<Integer> numbers = new HashSet<>();
+
+        for (int i = 0; i < nums.length; i++) {
+            if (numbers.contains(nums[i])) {
+                return true;
+            }
+            numbers.add(nums[i]);
         }
+
         return false;
     }
 }

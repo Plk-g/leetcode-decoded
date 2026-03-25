@@ -1,16 +1,8 @@
 {
   "solved": 2,
   "total": 150,
-  "last_updated": "2026-03-25T23:39:45Z",
+  "last_updated": "2026-03-25T23:41:20Z",
   "problems": [
-    {
-      "number": 1,
-      "title": "Two Sum",
-      "difficulty": "Easy",
-      "pattern": "Arrays & Hashing",
-      "link": "https://leetcode.com/problems/two-sum/",
-      "path": "arrays-and-hashing/TwoSum.java"
-    },
     {
       "number": 217,
       "title": "Contains Duplicate",
@@ -18,6 +10,14 @@
       "pattern": "Arrays & Hashing",
       "link": "https://leetcode.com/problems/contains-duplicate/",
       "path": "arrays-and-hashing/ContainsDuplicate.java"
+    },
+    {
+      "number": 242,
+      "title": "Valid Anagram",
+      "difficulty": "Easy",
+      "pattern": "Arrays & Hashing",
+      "link": "https://leetcode.com/problems/valid-anagram/",
+      "path": "arrays-and-hashing/ValidAnagram.java"
     }
   ]
 }
