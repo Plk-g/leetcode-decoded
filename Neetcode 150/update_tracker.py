@@ -18,6 +18,9 @@ README_PATH = ROOT / "README.md"
 TRACKER_PATH = ROOT / "tracker.json"
 TOTAL_TARGET = 150
 
+# tracker.json path relative to git repository root (for shields.io raw URL on GitHub)
+TRACKER_PATH_IN_REPO = "Neetcode 150/tracker.json"
+
 # (folder_name, display pattern name, NeetCode-style target count for X / Y row; sums to 150)
 CATEGORY_ROWS: list[tuple[str, str, int]] = [
     ("arrays-and-hashing", "Arrays & Hashing", 14),
@@ -159,7 +162,8 @@ def build_badge_markdown() -> str:
         owner, repo = gh.split("/", 1)
         branch = os.environ.get("GITHUB_REF_NAME", "main")
         raw = (
-            f"https://raw.githubusercontent.com/{owner}/{repo}/refs/heads/{branch}/tracker.json"
+            f"https://raw.githubusercontent.com/{owner}/{repo}/refs/heads/{branch}/"
+            f"{TRACKER_PATH_IN_REPO}"
         )
         enc = quote(raw, safe="")
         suf = quote(f"/{TOTAL_TARGET}", safe="")
@@ -170,7 +174,8 @@ def build_badge_markdown() -> str:
             f"![Roadmap](https://img.shields.io/badge/roadmap-NeetCode%20150-blue)"
         )
     placeholder = quote(
-        "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/Leetcode/refs/heads/main/tracker.json",
+        "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_REPO/refs/heads/main/"
+        + TRACKER_PATH_IN_REPO,
         safe="",
     )
     suf = quote(f"/{TOTAL_TARGET}", safe="")

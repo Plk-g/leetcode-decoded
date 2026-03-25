@@ -27,13 +27,13 @@ jobs:
         env:
           GITHUB_REPOSITORY: ${{ github.repository }}
           GITHUB_REF_NAME: ${{ github.ref_name }}
-        run: python update_tracker.py
+        run: python "Neetcode 150/update_tracker.py"
 
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md tracker.json
+          git add "Neetcode 150/README.md" "Neetcode 150/tracker.json"
           if git diff --staged --quiet; then
             echo "No README or tracker changes."
             exit 0
