@@ -3,7 +3,7 @@
 > A pattern-based reference of LeetCode solutions. Every file includes intuition, approach, and complexity — written to be understood, not just submitted.
 
 <!-- AUTO:SOLVED_BADGES -->
-![Solved](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FYOUR_GITHUB_USERNAME%2FLeetcode%2Frefs%2Fheads%2Fmain%2Ftracker.json&query=%24.solved&label=solved&suffix=%2F150&color=brightgreen) ![Language](https://img.shields.io/badge/language-Java-orange) ![Roadmap](https://img.shields.io/badge/roadmap-NeetCode%20150-blue)
+![Solved](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FPlk-g%2Fleetcode-decoded%2Frefs%2Fheads%2Fmain%2Ftracker.json&query=%24.solved&label=solved&suffix=%2F150&color=brightgreen) ![Language](https://img.shields.io/badge/language-Java-orange) ![Roadmap](https://img.shields.io/badge/roadmap-NeetCode%20150-blue)
 <!-- END_AUTO:SOLVED_BADGES -->
 
 ## Why this repo?
