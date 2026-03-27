@@ -32,6 +32,7 @@ Solutions are grouped by **pattern** (not by solve date), so you can study one t
 <!-- AUTO:TRACKER_TABLE -->
 | # | Problem | Difficulty | Pattern | Solution |
 |---|---------|------------|---------|----------|
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | Arrays & Hashing | [code](arrays-and-hashing/TwoSum.java) |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | Arrays & Hashing | [code](arrays-and-hashing/ContainsDuplicate.java) |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | Arrays & Hashing | [code](arrays-and-hashing/ValidAnagram.java) |
 <!-- END_AUTO:TRACKER_TABLE -->
@@ -41,7 +42,7 @@ Solutions are grouped by **pattern** (not by solve date), so you can study one t
 <!-- AUTO:PATTERNS_OVERVIEW -->
 | Pattern | Progress (solved / target) |
 |---------|---------------------------|
-| Arrays & Hashing | 2 / 14 |
+| Arrays & Hashing | 3 / 14 |
 | Two Pointers | 0 / 11 |
 | Sliding Window | 0 / 11 |
 | Stack | 0 / 11 |

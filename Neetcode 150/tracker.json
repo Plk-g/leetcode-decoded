@@ -1,8 +1,16 @@
 {
-  "solved": 2,
+  "solved": 3,
   "total": 150,
-  "last_updated": "2026-03-26T00:09:19Z",
+  "last_updated": "2026-03-27T18:30:13Z",
   "problems": [
+    {
+      "number": 1,
+      "title": "Two Sum",
+      "difficulty": "Easy",
+      "pattern": "Arrays & Hashing",
+      "link": "https://leetcode.com/problems/two-sum/",
+      "path": "arrays-and-hashing/TwoSum.java"
+    },
     {
       "number": 217,
       "title": "Contains Duplicate",
