@@ -1,7 +1,7 @@
 {
-  "solved": 3,
+  "solved": 4,
   "total": 150,
-  "last_updated": "2026-03-27T18:35:49Z",
+  "last_updated": "2026-03-31T00:18:42Z",
   "problems": [
     {
       "number": 1,
@@ -10,6 +10,14 @@
       "pattern": "Arrays & Hashing",
       "link": "https://leetcode.com/problems/two-sum/",
       "path": "arrays-and-hashing/TwoSum.java"
+    },
+    {
+      "number": 121,
+      "title": "Best Time to Buy and Sell Stock",
+      "difficulty": "Easy",
+      "pattern": "Sliding Window",
+      "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+      "path": "sliding-window/BestTimeToBuyAndSellStock.java"
     },
     {
       "number": 217,
