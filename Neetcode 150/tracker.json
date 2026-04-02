@@ -1,7 +1,7 @@
 {
-  "solved": 4,
+  "solved": 5,
   "total": 150,
-  "last_updated": "2026-03-31T00:20:17Z",
+  "last_updated": "2026-04-02T22:55:55Z",
   "problems": [
     {
       "number": 1,
@@ -10,6 +10,14 @@
       "pattern": "Arrays & Hashing",
       "link": "https://leetcode.com/problems/two-sum/",
       "path": "arrays-and-hashing/TwoSum.java"
+    },
+    {
+      "number": 20,
+      "title": "Valid Parentheses",
+      "difficulty": "Easy",
+      "pattern": "Stack",
+      "link": "https://leetcode.com/problems/valid-parentheses/",
+      "path": "stack/ValidParentheses.java"
     },
     {
       "number": 121,
