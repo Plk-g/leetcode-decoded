@@ -1,7 +1,7 @@
 {
-  "solved": 5,
+  "solved": 6,
   "total": 150,
-  "last_updated": "2026-04-02T23:00:21Z",
+  "last_updated": "2026-04-06T21:35:11Z",
   "problems": [
     {
       "number": 1,
@@ -26,6 +26,14 @@
       "pattern": "Sliding Window",
       "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
       "path": "sliding-window/BestTimeToBuyAndSellStock.java"
+    },
+    {
+      "number": 125,
+      "title": "Valid Palindrome",
+      "difficulty": "Easy",
+      "pattern": "Two Pointers",
+      "link": "https://leetcode.com/problems/valid-palindrome/",
+      "path": "two-pointers/ValidPalindrome.java"
     },
     {
       "number": 217,

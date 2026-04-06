@@ -35,6 +35,7 @@ Solutions are grouped by **pattern** (not by solve date), so you can study one t
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | Arrays & Hashing | [code](arrays-and-hashing/TwoSum.java) |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | Stack | [code](stack/ValidParentheses.java) |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | Sliding Window | [code](sliding-window/BestTimeToBuyAndSellStock.java) |
+| 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | Two Pointers | [code](two-pointers/ValidPalindrome.java) |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | Arrays & Hashing | [code](arrays-and-hashing/ContainsDuplicate.java) |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | Arrays & Hashing | [code](arrays-and-hashing/ValidAnagram.java) |
 <!-- END_AUTO:TRACKER_TABLE -->
@@ -45,7 +46,7 @@ Solutions are grouped by **pattern** (not by solve date), so you can study one t
 | Pattern | Progress (solved / target) |
 |---------|---------------------------|
 | Arrays & Hashing | 3 / 14 |
-| Two Pointers | 0 / 11 |
+| Two Pointers | 1 / 11 |
 | Sliding Window | 1 / 11 |
 | Stack | 1 / 11 |
 | Binary Search | 0 / 11 |
