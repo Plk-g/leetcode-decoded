@@ -3,7 +3,7 @@
 > A pattern-based reference of LeetCode solutions. Every file includes intuition, approach, and complexity — written to be understood, not just submitted.
 
 <!-- AUTO:SOLVED_BADGES -->
-![Solved](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FPlk-g%2Fleetcode-decoded%2Frefs%2Fheads%2Fmain%2FNeetcode%20150%2Ftracker.json&query=%24.solved&label=solved&suffix=%2F150&color=brightgreen) ![Language](https://img.shields.io/badge/language-Java-orange) ![Roadmap](https://img.shields.io/badge/roadmap-NeetCode%20150-blue)
+![Solved](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FYOUR_GITHUB_USERNAME%2FYOUR_REPO%2Frefs%2Fheads%2Fmain%2FNeetcode%20150%2Ftracker.json&query=%24.solved&label=solved&suffix=%2F150&color=brightgreen) ![Language](https://img.shields.io/badge/language-Java-orange) ![Roadmap](https://img.shields.io/badge/roadmap-NeetCode%20150-blue)
 <!-- END_AUTO:SOLVED_BADGES -->
 
 ## Why this repo?
@@ -38,6 +38,7 @@ Solutions are grouped by **pattern** (not by solve date), so you can study one t
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | Two Pointers | [code](two-pointers/ValidPalindrome.java) |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | Arrays & Hashing | [code](arrays-and-hashing/ContainsDuplicate.java) |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | Arrays & Hashing | [code](arrays-and-hashing/ValidAnagram.java) |
+| 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | Easy | Binary Search | [code](binary-search/BinarySearch.java) |
 <!-- END_AUTO:TRACKER_TABLE -->
 
 ## Patterns overview
@@ -49,7 +50,7 @@ Solutions are grouped by **pattern** (not by solve date), so you can study one t
 | Two Pointers | 1 / 11 |
 | Sliding Window | 1 / 11 |
 | Stack | 1 / 11 |
-| Binary Search | 0 / 11 |
+| Binary Search | 1 / 11 |
 | Linked List | 0 / 13 |
 | Trees | 0 / 15 |
 | Heap / Priority Queue | 0 / 11 |

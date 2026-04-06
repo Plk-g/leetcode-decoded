@@ -1,7 +1,7 @@
 {
-  "solved": 6,
+  "solved": 7,
   "total": 150,
-  "last_updated": "2026-04-06T21:35:25Z",
+  "last_updated": "2026-04-06T23:06:16Z",
   "problems": [
     {
       "number": 1,
@@ -50,6 +50,14 @@
       "pattern": "Arrays & Hashing",
       "link": "https://leetcode.com/problems/valid-anagram/",
       "path": "arrays-and-hashing/ValidAnagram.java"
+    },
+    {
+      "number": 704,
+      "title": "Binary Search",
+      "difficulty": "Easy",
+      "pattern": "Binary Search",
+      "link": "https://leetcode.com/problems/binary-search/",
+      "path": "binary-search/BinarySearch.java"
     }
   ]
 }
